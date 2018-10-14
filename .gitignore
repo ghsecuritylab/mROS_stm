@@ -30,3 +30,7 @@
 *.exe
 *.out
 *.app
+
+# TrueSTUDIO files
+workspace/.metadata/
+workspace/*/.metadata/
