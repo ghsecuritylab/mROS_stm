@@ -12,3 +12,5 @@ mROS library for STM32 family
 - [TOPPERS/ASP kernel](http://toppers.jp/asp-d-download.html)
   - asp-1.9.3.tar.gz
   - asp_arch_arm_m7_gcc-1.9.3.tar.gz
+- [TOPPERS configurator](http://toppers.jp/cfg-download.html)
+  - cfg-mingw-static-1_9_6.zip

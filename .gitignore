@@ -34,3 +34,7 @@
 # TrueSTUDIO files
 workspace/.metadata/
 workspace/*/.metadata/
+asp.*
+cfg1_out.*
+kernel_cfg.*
+offset.h
