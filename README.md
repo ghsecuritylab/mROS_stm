@@ -14,3 +14,4 @@ mROS library for STM32 family
   - asp_arch_arm_m7_gcc-1.9.3.tar.gz
 - [TOPPERS configurator](http://toppers.jp/cfg-download.html)
   - cfg-mingw-static-1_9_6.zip
+- [STM32CubeF7](https://www.st.com/content/st_com/ja/products/embedded-software/mcus-embedded-software/stm32-embedded-software/stm32cube-mcu-packages/stm32cubef7.html)
