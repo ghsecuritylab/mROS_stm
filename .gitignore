@@ -34,6 +34,7 @@
 # TrueSTUDIO files
 workspace/.metadata/
 workspace/*/.metadata/
+*.su
 asp.*
 cfg1_out.*
 kernel_cfg.*

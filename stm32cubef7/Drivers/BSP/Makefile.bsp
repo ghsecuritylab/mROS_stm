@@ -1,0 +1,8 @@
+ASM_OBJ += 
+
+#C_OBJ += $(STM32_LIB_DIR)/hogehoge.o 
+
+CXX_OBJ += 
+
+#INCLUDE_PATHS += -I. \
+#		 -I$(STM32_LIB_DIR)/mbed-src 

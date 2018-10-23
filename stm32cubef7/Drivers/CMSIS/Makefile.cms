@@ -1,0 +1,9 @@
+ASM_OBJ += 
+
+#C_OBJ += $(STM32_LIB_DIR)/hogehoge.o 
+
+CXX_OBJ += 
+
+INCLUDE_PATHS += -I. \
+		 -I$(STM32_LIB_DIR)/Drivers/CMSIS/Include \
+		 -I$(STM32_LIB_DIR)/Drivers/CMSIS/Device/ST/STM32F7xx/Include

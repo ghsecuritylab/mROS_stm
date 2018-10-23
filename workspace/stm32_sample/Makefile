@@ -7,7 +7,7 @@ all:
 #  アプリケーションファイル
 #
 APPLDIR = .
-APPLNAME = sample1
+APPLNAME = stm32_sample
 #USE_CXX = true
 APPL_CFG = $(APPLNAME).cfg
 USE_TRUESTUDIO = true
@@ -22,9 +22,9 @@ OMIT_OPTIMIZATION = true
 #GCC_PATH_WIN = C:\Program Files (x86)\Atollic\TrueSTUDIO for STM32 9.0.1\ARMTools\bin
 
 #
-#  MBEDライブラリのディレクトリの定義
+#  STM32Cubeライブラリのディレクトリの定義
 #
-#MBED_LIB_DIR = ../../../mbed-lib
+STM32_LIB_DIR = ../../stm32cubef7
 
 #
 #  ASPソースファイルのディレクトリの定義
@@ -32,10 +32,13 @@ OMIT_OPTIMIZATION = true
 SRCDIR = ../../asp
 
 #
-#  MBEDライブラリのビルド
+#  STM32Cubeライブラリのビルド
 #
-#include $(MBED_LIB_DIR)/mbed-src/Makefile.src
-#include ../Makefile.mbd
+INCLUDE_PATHS += -I./stm32_src
+include $(STM32_LIB_DIR)/Drivers/BSP/Makefile.bsp
+include $(STM32_LIB_DIR)/Drivers/STM32F7xx_HAL_Driver/Makefile.hal
+include $(STM32_LIB_DIR)/Drivers/CMSIS/Makefile.cms
+include ../Makefile.stm
 
 #
 #  ASPカーネルライブラリ
