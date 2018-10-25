@@ -7,3 +7,4 @@ CXX_OBJ +=
 INCLUDE_PATHS += -I. \
 		 -I$(STM32_LIB_DIR)/Drivers/CMSIS/Include \
 		 -I$(STM32_LIB_DIR)/Drivers/CMSIS/Device/ST/STM32F7xx/Include
+

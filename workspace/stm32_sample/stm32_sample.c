@@ -14,6 +14,9 @@
 #include "kernel_cfg.h"
 #include "stm32_sample.h"
 
+#include "stm32f7xx_nucleo_144.h"
+
+
 /*
  *  サービスコールのエラーのログ出力
  */
@@ -36,13 +39,15 @@ uint8_t BlinkSpeed = 0;
  */
 void task(intptr_t exinf)
 {
+  /* Configure LED2 on Nucleo */
+  BSP_LED_Init(LED2);
+
   while (1) {
     HAL_Delay(1000);
     syslog(LOG_NOTICE, "HAL_Delay test.");
+    BSP_LED_Toggle(LED2);
   }
 #if 0
-  /* Configure LED2 on Nucleo */
-  BSP_LED_Init(LED2);
 
   /* Configure the User Button in EXTI Mode */
   BSP_PB_Init(BUTTON_USER, BUTTON_MODE_EXTI);

@@ -1,8 +1,9 @@
 ASM_OBJ += 
 
-#C_OBJ += $(STM32_LIB_DIR)/hogehoge.o 
+C_OBJ += $(STM32_LIB_DIR)/Drivers/BSP/STM32F7xx_Nucleo_144/stm32f7xx_nucleo_144.o 
 
 CXX_OBJ += 
 
-#INCLUDE_PATHS += -I. \
-#		 -I$(STM32_LIB_DIR)/mbed-src 
+INCLUDE_PATHS += -I. \
+		-I$(STM32_LIB_DIR)/Drivers/BSP/STM32F7xx_Nucleo_144
+

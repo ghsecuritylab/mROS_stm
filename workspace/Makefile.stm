@@ -87,8 +87,9 @@ APPL_CFLAGS =
 APPL_LIBS = $(LIB).a
 APPL_DIR = .
 
-#INCLUDES += $(INCLUDE_PATHS) # STM32ライブラリのヘッダファイルをアプリで使う
+INCLUDES += $(INCLUDE_PATHS) # STM32ライブラリのヘッダファイルをアプリで使う
 #COPTS += -mfpu=fpv5-d16 -mfloat-abi=hard
+CDEFS += -DSTM32F767xx -DUSE_HAL_DRIVER -DUSE_STM32F7XX_NUCLEO_144
 #CDEFS += -DTOPPERS_OMIT_BSS_INIT -DTOPPERS_OMIT_DATA_INIT # ASPのスタートアップルーチンでは初期化処理は不要
 
 #APPL_CXXFLAGS += $(CC_FLAGS) $(CC_SYMBOLS) -std=gnu++11 -fno-rtti
