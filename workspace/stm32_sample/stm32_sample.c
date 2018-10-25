@@ -16,7 +16,6 @@
 
 #include "stm32f7xx_nucleo_144.h"
 
-
 /*
  *  サービスコールのエラーのログ出力
  */
@@ -42,13 +41,6 @@ void task(intptr_t exinf)
   /* Configure LED2 on Nucleo */
   BSP_LED_Init(LED2);
 
-  while (1) {
-    HAL_Delay(1000);
-    syslog(LOG_NOTICE, "HAL_Delay test.");
-    BSP_LED_Toggle(LED2);
-  }
-#if 0
-
   /* Configure the User Button in EXTI Mode */
   BSP_PB_Init(BUTTON_USER, BUTTON_MODE_EXTI);
   
@@ -58,6 +50,7 @@ void task(intptr_t exinf)
   /* Infinite loop */
   while(1)
   {
+	  syslog(LOG_NOTICE, "Integrate test.");
     /* Test on blink speed */
     if(BlinkSpeed == 0)
     {
@@ -79,7 +72,6 @@ void task(intptr_t exinf)
     }
     
 	}
-#endif
 }
 
 /*
@@ -128,4 +120,21 @@ void main_task(intptr_t exinf)
 	syslog(LOG_NOTICE, "STM32_Sample program ends.");
 	SVC_PERROR(ext_ker());
 	assert(0);
+}
+
+/**
+  * @brief  EXTI line detection callbacks.
+  * @param  GPIO_Pin: Specifies the pins connected EXTI line
+  * @retval None
+  */
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+{
+  if(BlinkSpeed == 2)
+  {
+    BlinkSpeed = 0;
+  }
+  else
+  {
+    BlinkSpeed ++;
+  }
 }

@@ -35,7 +35,7 @@ SRCDIR = ../../asp
 #  STM32Cubeライブラリのビルド
 #
 INCLUDE_PATHS += -I./stm32_src
-C_OBJ += stm32_src/system_stm32f7xx.o
+C_OBJ += stm32_src/system_stm32f7xx.o stm32_src/stm32f7xx_it.o
 include $(STM32_LIB_DIR)/Drivers/BSP/Makefile.bsp
 include $(STM32_LIB_DIR)/Drivers/STM32F7xx_HAL_Driver/Makefile.hal
 include $(STM32_LIB_DIR)/Drivers/CMSIS/Makefile.cms
