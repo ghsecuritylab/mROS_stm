@@ -24,4 +24,5 @@ Please let us know if you could develop build anothoer host OS.
     - Unzip the archive and locate to asp/cfg-mingw-static-1_9_6/cfg.exe
   - (for Linux) cfg-linux-static-1_9_6.gz
     - Unzip the archive and locate asp/cfg-linux-static-1_9_6
+    - $ sudo apt install libstdc++6 lib32stdc++6
 - [STM32CubeF7](https://www.st.com/content/st_com/ja/products/embedded-software/mcus-embedded-software/stm32-embedded-software/stm32cube-mcu-packages/stm32cubef7.html)
