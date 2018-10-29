@@ -40,7 +40,8 @@ asp.*
 cfg1_out.*
 kernel_cfg.*
 offset.h
+asp/cfg-*
 
-# for vim
+# etc.,,,
 *.swp
 .DS_Store
