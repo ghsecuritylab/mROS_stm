@@ -91,7 +91,7 @@ else
 ifeq ($(OS),Windows_NT)
     UNAME := Windows
 else
-ifeq ($(UNAME),Linux)
+ifeq ($(shell uname),Linux)
     UNAME := Linux
 ifeq ($(UNAME),Darwin)
     UNAME := Darwin
@@ -120,7 +120,11 @@ ENABLE_TRACE =
 #  ユーティリティプログラムの名称
 #
 PERL = /usr/bin/perl
-CFG = $(SRCDIR)/cfg-mingw-static-1_9_6/cfg
+ifeq ($(UNAME), Linux)
+  CFG = $(SRCDIR)/cfg-linux-static-1_9_6
+else
+  CFG = $(SRCDIR)/cfg-mingw-static-1_9_6/cfg
+endif
 
 #
 #  オブジェクトファイル名の定義
@@ -498,7 +502,7 @@ ifeq ($(TOOL),gcc)
     GCC_TARGET_PREFIX =
   endif
 
-ifeq ($(UNAME),Windows)
+ifeq ($(USE_TRUESTUDIO),true)
   ifdef GCC_PATH_WIN
     GCC_TARGET_PREFIX = $(GCC_PATH_WIN)\arm-atollic-eabi-
   else
