@@ -42,7 +42,8 @@ endif
 CC_FLAGS = $(CPU) -c -g -Wall -specs=nano.specs
 CC_FLAGS += -ffunction-sections -fdata-sections -fstack-usage 
 
-CC_SYMBOLS = -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F767xx
+#CC_SYMBOLS = -D__weak=__attribute__((weak)) -D__packed=__attribute__((__packed__)) -DUSE_HAL_DRIVER -DSTM32F767xx
+CC_SYMBOLS = -DUSE_HAL_DRIVER -DSTM32F767xx
 
 LD_FLAGS = $(CPU) -specs=nosys.specs -static -Wl,-Map=$(APPLNAME).map -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -Wl,--end-group -specs=nano.specs 
 LD_SYS_LIBS = -lc -lm 
@@ -65,7 +66,7 @@ $(ASM_OBJ): %.o: %.S
 	$(CC) $(CPU) $(ASM_FLAGS) -c -x assembler-with-cpp -o $@ $<
 
 $(C_OBJ): %.o: %.c
-	$(CC)  $(CC_FLAGS) $(CC_SYMBOLS) -std=gnu11   $(INCLUDE_PATHS) -o $@ $<
+	$(CC) $(CC_FLAGS) $(CC_SYMBOLS) -std=gnu11   $(INCLUDE_PATHS) -o $@ $<
 
 $(CXX_OBJ): %.o: %.cpp
 	$(CPP) $(CC_FLAGS) $(CC_SYMBOLS) -std=gnu++11 $(INCLUDE_PATHS) -o $@ $<

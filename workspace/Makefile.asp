@@ -508,15 +508,15 @@ ifeq ($(USE_TRUESTUDIO),true)
   else
     GCC_TARGET_PREFIX = arm-atollic-eabi-
   endif
-  CC = "$(GCC_TARGET_PREFIX)gcc"
-  CXX = "$(GCC_TARGET_PREFIX)g++"
-  AS = "$(GCC_TARGET_PREFIX)as"
-  LD = "$(GCC_TARGET_PREFIX)ld"
-  AR = "$(GCC_TARGET_PREFIX)ar"
-  NM = "$(GCC_TARGET_PREFIX)nm"
-  RANLIB = "$(GCC_TARGET_PREFIX)ranlib"
-  OBJCOPY = "$(GCC_TARGET_PREFIX)objcopy"
-  OBJDUMP = "$(GCC_TARGET_PREFIX)objdump"
+  CC = $(GCC_TARGET_PREFIX)gcc
+  CXX = $(GCC_TARGET_PREFIX)g++
+  AS = $(GCC_TARGET_PREFIX)as
+  LD = $(GCC_TARGET_PREFIX)ld
+  AR = $(GCC_TARGET_PREFIX)ar
+  NM = $(GCC_TARGET_PREFIX)nm
+  RANLIB = $(GCC_TARGET_PREFIX)ranlib
+  OBJCOPY = $(GCC_TARGET_PREFIX)objcopy
+  OBJDUMP = $(GCC_TARGET_PREFIX)objdump
 else
   CC = $(GCC_TARGET_PREFIX)gcc
   CXX = $(GCC_TARGET_PREFIX)g++
