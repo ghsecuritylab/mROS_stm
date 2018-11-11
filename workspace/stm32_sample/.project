@@ -2096,11 +2096,6 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/STM32F7xx_HAL_Driver/TOPPERS_HAL_layer.c</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Drivers/STM32F7xx_HAL_Driver/TOPPERS_HAL_layer.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/STM32F7xx_HAL_Driver/TOPPERS_HAL_layer.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Drivers/STM32F7xx_HAL_Driver/TOPPERS_HAL_layer.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/STM32F7xx_HAL_Driver/TOPPERS_HAL_layer.su</locationURI>
@@ -3426,6 +3421,11 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/BSP/STM32F7xx_Nucleo_144/stm32f7xx_nucleo_144.h</locationURI>
 		</link>
 		<link>
+			<name>stm32cubef7/Drivers/BSP/STM32F7xx_Nucleo_144/stm32f7xx_nucleo_144.su</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/BSP/STM32F7xx_Nucleo_144/stm32f7xx_nucleo_144.su</locationURI>
+		</link>
+		<link>
 			<name>stm32cubef7/Drivers/CMSIS/DSP_Lib/Examples</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
@@ -4041,14 +4041,29 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c</locationURI>
 		</link>
 		<link>
+			<name>stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.su</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.su</locationURI>
+		</link>
+		<link>
 			<name>stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c</locationURI>
 		</link>
 		<link>
+			<name>stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.su</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.su</locationURI>
+		</link>
+		<link>
 			<name>stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c</locationURI>
+		</link>
+		<link>
+			<name>stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.su</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.su</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_can.c</name>
@@ -4064,6 +4079,16 @@
 			<name>stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c</locationURI>
+		</link>
+		<link>
+			<name>stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.o</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.o</locationURI>
+		</link>
+		<link>
+			<name>stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.su</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.su</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_crc.c</name>
@@ -4116,6 +4141,11 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c</locationURI>
 		</link>
 		<link>
+			<name>stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.su</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.su</locationURI>
+		</link>
+		<link>
 			<name>stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma2d.c</locationURI>
@@ -4149,6 +4179,11 @@
 			<name>stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c</locationURI>
+		</link>
+		<link>
+			<name>stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.su</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.su</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_hash.c</name>
@@ -4329,6 +4364,11 @@
 			<name>stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.c</locationURI>
+		</link>
+		<link>
+			<name>stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.su</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_spi.su</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_sram.c</name>
