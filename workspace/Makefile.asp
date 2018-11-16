@@ -377,10 +377,14 @@ $(OBJFILE): $(APPL_CFG) kernel_cfg.timestamp $(ALL_OBJS) $(LIBS_DEP)
 $(OBJNAME).bin: $(OBJFILE)
 	$(OBJCOPY) -O binary -S $(OBJFILE) $(OBJNAME).bin
 ifeq ($(UNAME), Linux)
-	cp $(OBJNAME).bin /media/$(shell whoami)/NODE_F767ZI
+	if [ -f /media/$(shell whoami)/NODE_F767ZI/DETAILS.TXT ]; then \
+	cp $(OBJNAME).bin /media/$(shell whoami)/NODE_F767ZI ; \
+  fi
 else
 ifeq ($(UNAME), Darwin)
-	cp -X $(OBJNAME).bin /Volumes/NODE_F767ZI
+	if [ -f /Volumes/NODE_F767ZI/DETAILS.TXT ]; then \
+	cp $(OBJNAME).bin /Volumes/NODE_F767ZI ; \
+  fi
 endif
 endif
 
