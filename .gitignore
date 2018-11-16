@@ -35,13 +35,14 @@
 workspace/.metadata/
 workspace/*/.metadata/
 workspace/*/.settings/language.settings.xml
-*.su
-asp.*
-cfg1_out.*
-kernel_cfg.*
-offset.h
+workspace/*/Makefile.depend
+workspace/*/asp*
+workspace/*/cfg1_out*
+workspace/*/kernel_cfg*
+workspace/*/offset.h
 asp/cfg-*
 
 # etc.,,,
 *.swp
+*.su
 .DS_Store
