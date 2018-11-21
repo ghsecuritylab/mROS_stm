@@ -1,0 +1,11 @@
+ASM_OBJ += 
+
+C_OBJ += $(STM32_LIB_DIR)/Middlewares/Third_Party/FatFs/src/ff.o \
+		$(STM32_LIB_DIR)/Middlewares/Third_Party/FatFs/src/ff_gen_drv.o \
+		$(STM32_LIB_DIR)/Middlewares/Third_Party/FatFs/src/diskio.o
+
+CXX_OBJ += 
+
+INCLUDE_PATHS += -I. \
+		-I$(STM32_LIB_DIR)/Middlewares/Third_Party/FatFs/src
+

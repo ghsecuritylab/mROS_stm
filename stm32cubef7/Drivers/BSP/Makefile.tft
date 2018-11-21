@@ -1,0 +1,13 @@
+ASM_OBJ += 
+
+C_OBJ += $(STM32_LIB_DIR)/Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.o \
+		$(STM32_LIB_DIR)/Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.o \
+		$(STM32_LIB_DIR)/Drivers/BSP/Components/st7735/st7735.o 
+
+CXX_OBJ += 
+
+INCLUDE_PATHS += -I. \
+		-I$(STM32_LIB_DIR)/Drivers/BSP/Adafruit_Shield \
+		-I$(STM32_LIB_DIR)/Drivers/BSP/Components/st7735
+
+
