@@ -3,7 +3,7 @@
  */
 
 /*
- *  ボード上のPushSWによりLED2の表示間隔を変更させる
+ *  Adafruit TFT Shiledのデモ
  */
 
 #include <kernel.h>
@@ -15,6 +15,51 @@
 #include "adafruit_tft_sample.h"
 
 #include "stm32f7xx_nucleo_144.h"
+#include "stm32_adafruit_sd.h"
+#include "stm32_adafruit_lcd.h"
+
+#include <stdio.h>
+#include <stdlib.h>
+
+/* FatFs includes component */
+#include "ff_gen_drv.h"
+#include "sd_diskio.h"
+#include "fatfs_storage.h"
+
+#define  MAX_BMP_FILES  25
+#define  MAX_BMP_FILE_NAME 11
+
+/* Private typedef -----------------------------------------------------------*/
+typedef enum 
+{
+  SHIELD_NOT_DETECTED = 0, 
+  SHIELD_DETECTED
+}ShieldStatus;
+
+/* Private define ------------------------------------------------------------*/
+#define SD_CARD_NOT_FORMATTED                    0
+#define SD_CARD_FILE_NOT_SUPPORTED               1
+#define SD_CARD_OPEN_FAIL                        2
+#define FATFS_NOT_MOUNTED                        3
+#define BSP_SD_INIT_FAILED                       4
+
+#define POSITION_X_BITMAP                        0
+#define POSITION_Y_BITMAP                        0
+
+/* Private macro -------------------------------------------------------------*/
+/* Private variables ---------------------------------------------------------*/
+uint8_t BlinkSpeed = 0, str[20];
+__IO uint8_t JoystickValue = 0;
+char* pDirectoryFiles[MAX_BMP_FILES];
+FATFS SD_FatFs;  /* File system object for SD card logical drive */
+char SD_Path[4]; /* SD card logical drive path */
+
+
+static ShieldStatus TFT_ShieldDetect(void);
+static void SDCard_Config(void);
+static void TFT_DisplayErrorMessage(uint8_t message);
+static void TFT_DisplayMenu(void);
+static void TFT_DisplayImages(void);
 
 /*
  *  サービスコールのエラーのログ出力
@@ -29,14 +74,11 @@ svc_perror(const char *file, int_t line, const char *expr, ER ercd)
 
 #define	SVC_PERROR(expr)	svc_perror(__FILE__, __LINE__, #expr, (expr))
 
-//uint8_t BlinkSpeed = 0, str[20];
-uint8_t BlinkSpeed = 0;
-
 
 /*
- *  処理本体のタスク
+ *  LED点滅制御のタスク
  */
-void task(intptr_t exinf)
+void led_task(intptr_t exinf)
 {
   /* Configure LED2 on Nucleo */
   BSP_LED_Init(LED2);
@@ -50,7 +92,7 @@ void task(intptr_t exinf)
   /* Infinite loop */
   while(1)
   {
-	  syslog(LOG_NOTICE, "Integrate test.");
+	  syslog(LOG_NOTICE, "Blinking LED.");
     /* Test on blink speed */
     if(BlinkSpeed == 0)
     {
@@ -74,6 +116,20 @@ void task(intptr_t exinf)
 	}
 }
 
+/*
+ *  Adafruit TFTシールド制御のタスク
+ */
+void tft_task(intptr_t exinf)
+{
+  /* Initialize the LCD */
+  BSP_LCD_Init();
+
+  /* Configure SD card */
+  SDCard_Config(); 
+
+  /* Display on TFT Images existing on SD card */
+  TFT_DisplayImages();
+}
 /*
  *  メインタスク
  */
@@ -103,7 +159,14 @@ void main_task(intptr_t exinf)
 	/*
  	 *  タスクの起動
 	 */
-	SVC_PERROR(act_tsk(TASK1));
+	SVC_PERROR(act_tsk(LED_TASK));
+
+  /* Check the availability of adafruit 1.8" TFT shield on top of STM32NUCLEO
+     board. This is done by reading the state of IO PF.03 pin (mapped to JoyStick
+     available on adafruit 1.8" TFT shield). If the state of PF.03 is high then
+     the adafruit 1.8" TFT shield is available. */  
+  if(TFT_ShieldDetect() == SHIELD_DETECTED)
+	  SVC_PERROR(act_tsk(TFT_TASK));
 	
   /*
  	 *  メインループ
@@ -138,3 +201,388 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
     BlinkSpeed ++;
   }
 }
+
+/**
+  * @brief  Check the availability of adafruit 1.8" TFT shield on top of STM32NUCLEO
+  *         board. This is done by reading the state of IO PF.03 pin (mapped to 
+  *         JoyStick available on adafruit 1.8" TFT shield). If the state of PF.03 
+  *         is high then the adafruit 1.8" TFT shield is available.
+  * @param  None
+  * @retval SHIELD_DETECTED: 1.8" TFT shield is available
+  *         SHIELD_NOT_DETECTED: 1.8" TFT shield is not available
+  */
+static ShieldStatus TFT_ShieldDetect(void)
+{
+  GPIO_InitTypeDef  GPIO_InitStruct; 
+
+  /* Enable GPIO clock */
+  NUCLEO_ADCx_GPIO_CLK_ENABLE();
+  
+  GPIO_InitStruct.Pin = NUCLEO_ADCx_GPIO_PIN ;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_PULLDOWN;
+  HAL_GPIO_Init(NUCLEO_ADCx_GPIO_PORT , &GPIO_InitStruct);
+  
+  if(HAL_GPIO_ReadPin(NUCLEO_ADCx_GPIO_PORT, NUCLEO_ADCx_GPIO_PIN) != 0)
+  {
+    return SHIELD_DETECTED;
+  }
+  else
+  {
+    return SHIELD_NOT_DETECTED;
+  }
+}
+
+/**
+  * @brief  Displays demonstration menu.
+  * @param  None
+  * @retval None
+  */
+static void TFT_DisplayMenu(void)
+{
+  JOYState_TypeDef tmp;
+  
+  /* Set Menu font */
+  BSP_LCD_SetFont(&Font12);
+
+  /* Set Text color */
+  BSP_LCD_SetTextColor(LCD_COLOR_RED);
+  /* Display message */
+  BSP_LCD_DisplayStringAtLine(1, (uint8_t*)"   NUCLEO-F767ZI    ");
+  BSP_LCD_DisplayStringAtLine(2, (uint8_t*)"       DEMO         ");
+  
+  /* Set Text color */
+  BSP_LCD_SetTextColor(LCD_COLOR_BLUE);
+  /* Display message */  
+  BSP_LCD_DisplayStringAtLine(4, (uint8_t*)"Display images      ");
+  BSP_LCD_DisplayStringAtLine(6, (uint8_t*)"stored under uSD    ");
+  BSP_LCD_DisplayStringAtLine(8, (uint8_t*)"on TFT LCD          ");
+  
+  /* Set Text color */
+  BSP_LCD_SetTextColor(LCD_COLOR_BLACK);
+  /* Display message */ 
+  BSP_LCD_DisplayStringAtLine(11, (uint8_t*)"  Press JOY DOWN   ");
+  BSP_LCD_DisplayStringAtLine(12, (uint8_t*)"  to continue...   ");
+ 
+  /* Wait for JOY_DOWN is pressed */
+  while (BSP_JOY_GetState() != JOY_DOWN)
+  {}
+
+  /* Set Text color */
+  BSP_LCD_SetTextColor(LCD_COLOR_BLACK);  
+  /* Display message */ 
+  BSP_LCD_DisplayStringAtLine(4,  (uint8_t*)"                   ");
+  BSP_LCD_DisplayStringAtLine(6,  (uint8_t*)"  Press Joystick   ");
+  
+  /* Set Text color */
+  BSP_LCD_SetTextColor(LCD_COLOR_BLUE);
+  /* Display message */ 
+  BSP_LCD_DisplayStringAtLine(8,  (uint8_t*)"  UP for:          ");
+  BSP_LCD_DisplayStringAtLine(9,  (uint8_t*)"  Manual Mode      ");
+  BSP_LCD_DisplayStringAtLine(11, (uint8_t*)"  DOWN for:        ");
+  BSP_LCD_DisplayStringAtLine(12, (uint8_t*)"  Automatic Mode   ");
+
+  /* Wait until Joystick is released */
+  while (BSP_JOY_GetState() == JOY_DOWN)
+  {}
+
+  /* Wait for JOY_DOWN or JOY_UP is pressed */
+  tmp = JOY_RIGHT;
+  while ((tmp != JOY_DOWN) && (tmp != JOY_UP))
+  {
+    tmp = BSP_JOY_GetState();
+  }
+  
+  /* LCD Clear */
+  BSP_LCD_Clear(LCD_COLOR_WHITE); 
+  
+  /* JOY_UP is pressed: Display Manual mode menu #############################*/
+  if(tmp == JOY_UP )
+  {
+    /* Set Text color */
+    BSP_LCD_SetTextColor(LCD_COLOR_RED);    
+    /* Display message */ 
+    BSP_LCD_DisplayStringAtLine(3,  (uint8_t*)"   Manual Mode   ");
+    BSP_LCD_DisplayStringAtLine(5,  (uint8_t*)"    Selected     "); 
+    
+    /* Set Text color */
+    BSP_LCD_SetTextColor(LCD_COLOR_BLUE);      
+    /* Display message */               
+    BSP_LCD_DisplayStringAtLine(9,  (uint8_t*)"RIGHT: Next image"); 
+    BSP_LCD_DisplayStringAtLine(10, (uint8_t*)"LEFT : Previous  ");
+    BSP_LCD_DisplayStringAtLine(11, (uint8_t*)"SEL  : Switch to ");
+    BSP_LCD_DisplayStringAtLine(12, (uint8_t*)"automatic mode   ");    
+    JoystickValue = 2;  
+  }
+  /* JOY_DOWN is pressed: Display Automatic mode menu ########################*/
+  else if (tmp == JOY_DOWN)    
+  {
+    /* Set Text color */
+    BSP_LCD_SetTextColor(LCD_COLOR_RED);
+    /* Display message */ 
+    BSP_LCD_DisplayStringAtLine(3,  (uint8_t*)"  Automatic Mode  ");
+    BSP_LCD_DisplayStringAtLine(5,  (uint8_t*)"     Selected     ");
+
+    JoystickValue = 1;  
+    HAL_Delay(200);
+  }
+}
+
+/**
+  * @brief  Displays on TFT Images or error messages when error occurred.
+  * @param  None
+  * @retval None
+  */
+static void TFT_DisplayImages(void)
+{    
+  uint32_t bmplen = 0x00;
+  uint32_t checkstatus = 0x00;
+  uint32_t filesnumbers = 0x00;
+  uint32_t joystickstatus = JOY_NONE;
+  uint32_t bmpcounter = 0x00;
+  DIR directory;
+  FRESULT res;
+  
+  /* Initialize the Joystick available on adafruit 1.8" TFT shield */
+  BSP_JOY_Init();
+  
+  /* Welcome message */
+  TFT_DisplayMenu(); 
+  
+  /* Open directory */
+  res = f_opendir(&directory, "/");
+  if((res != FR_OK))
+  {
+    if(res == FR_NO_FILESYSTEM)
+    {
+      /* Display message: SD card not FAT formatted */
+      TFT_DisplayErrorMessage(SD_CARD_NOT_FORMATTED);    
+    }
+    else
+    {
+      /* Display message: Fail to open directory */
+      TFT_DisplayErrorMessage(SD_CARD_OPEN_FAIL);  
+    }
+  }
+  
+  /* Get number of bitmap files */
+  filesnumbers = Storage_GetDirectoryBitmapFiles ("/", pDirectoryFiles);    
+  /* Set bitmap counter to display first image */
+  bmpcounter = 1; 
+
+  /* Infinite loop */  
+  while (1)
+  {     
+    /* Get JoyStick status */    
+    joystickstatus = BSP_JOY_GetState();
+    
+    if(joystickstatus == JOY_SEL )
+    {      
+      JoystickValue++;
+      if (JoystickValue > 2)
+      {
+        JoystickValue = 1;
+      }
+      joystickstatus = JOY_NONE;
+    }
+    
+    /*## Display BMP pictures in Automatic mode ##############################*/
+    if(JoystickValue == 1) 
+    {
+      sprintf((char*)str, "%-11.11s", pDirectoryFiles[bmpcounter -1]);
+      
+      checkstatus = Storage_CheckBitmapFile((const char*)str, &bmplen);
+      
+      if(checkstatus == 0)
+      {
+        /* Format the string */
+        checkstatus = Storage_OpenReadFile(POSITION_X_BITMAP, POSITION_Y_BITMAP, (const char*)str);
+        HAL_Delay(1500);
+      }
+      else if (checkstatus == 1)
+      {
+        /* Display message: File not supported */
+        TFT_DisplayErrorMessage(SD_CARD_FILE_NOT_SUPPORTED);
+      }
+
+      bmpcounter++;
+      if(bmpcounter > filesnumbers)
+      {
+        bmpcounter = 1;
+      }
+    }   
+    
+    /*## Display BMP pictures in Manual mode #################################*/
+    if(JoystickValue == 2)
+    {
+      if( joystickstatus == JOY_RIGHT )
+      {
+        if((bmpcounter + 1) > filesnumbers)
+        {
+          bmpcounter = 1;
+        }
+        else
+        {
+          bmpcounter++;
+        }
+        sprintf ((char*)str, "%-11.11s", pDirectoryFiles[bmpcounter - 1]);
+        
+        checkstatus = Storage_CheckBitmapFile((const char*)str, &bmplen);
+        
+        if(checkstatus == 0)
+        {
+          /* Format the string */
+          Storage_OpenReadFile(POSITION_X_BITMAP, POSITION_Y_BITMAP, (const char*)str); 
+        }
+        
+        if(checkstatus == 1)
+        {
+          /* Display message: File not supported */
+          TFT_DisplayErrorMessage(SD_CARD_FILE_NOT_SUPPORTED); 
+        }
+        joystickstatus = JOY_NONE;
+        JoystickValue = 2;          
+      }
+      else if(joystickstatus == JOY_LEFT )
+      {
+        if((bmpcounter - 1) <= 1)
+        {
+          bmpcounter = 1;
+        }
+        else
+        {
+          bmpcounter--;
+        }
+        sprintf ((char*)str, "%-11.11s", pDirectoryFiles[bmpcounter - 1]); 
+        checkstatus = Storage_CheckBitmapFile((const char*)str, &bmplen);
+        
+        if(checkstatus == 0)
+        {
+          /* Format the string */
+          Storage_OpenReadFile(POSITION_X_BITMAP, POSITION_Y_BITMAP, (const char*)str); 
+        }
+        
+        if (checkstatus == 1)
+        {
+          /* Display message: File not supported */
+          TFT_DisplayErrorMessage(SD_CARD_FILE_NOT_SUPPORTED);
+        }
+        joystickstatus = JOY_NONE;
+        JoystickValue = 2;
+      }
+    }
+  }  
+}
+
+/**
+  * @brief  SD Card Configuration.
+  * @param  None
+  * @retval None
+  */
+static void SDCard_Config(void)
+{
+  uint32_t counter = 0;
+  
+  if(FATFS_LinkDriver(&SD_Driver, SD_Path) == 0)
+  {
+    /* Initialize the SD mounted on adafruit 1.8" TFT shield */
+    if(BSP_SD_Init() != MSD_OK)
+    {
+      TFT_DisplayErrorMessage(BSP_SD_INIT_FAILED);
+    }  
+    
+    /* Check the mounted device */
+    if(f_mount(&SD_FatFs, (TCHAR const*)"/", 0) != FR_OK)
+    {
+      TFT_DisplayErrorMessage(FATFS_NOT_MOUNTED);
+    }  
+    else
+    {
+      /* Initialize the Directory Files pointers (heap) */
+      for (counter = 0; counter < MAX_BMP_FILES; counter++)
+      {
+        pDirectoryFiles[counter] = malloc(11); 
+      }
+    }
+  }
+}
+
+/**
+  * @brief  Displays adequate message on TFT available on adafruit 1.8" TFT shield  
+  * @param  message: Error message to be displayed on the LCD.
+  *   This parameter can be one of following values:   
+  *     @arg SD_CARD_NOT_FORMATTED: SD CARD is not FAT formatted
+  *     @arg SD_CARD_FILE_NOT_SUPPORTED: File is not supported
+  *     @arg SD_CARD_OPEN_FAIL: Failure to open directory
+  *     @arg FATFS_NOT_MOUNTED: FatFs is not mounted
+  * @retval None
+  */
+static void TFT_DisplayErrorMessage(uint8_t message)
+{
+  /* LCD Clear */
+  BSP_LCD_Clear(LCD_COLOR_WHITE); 
+  /* Set Error Message Font */
+  BSP_LCD_SetFont(&Font12);
+  /* Set Text and Back colors */
+  BSP_LCD_SetBackColor(LCD_COLOR_GREY); 
+  BSP_LCD_SetTextColor(LCD_COLOR_RED);
+
+  if(message == SD_CARD_NOT_FORMATTED)
+  {
+    /* Display message */
+    BSP_LCD_DisplayStringAtLine(5, (uint8_t*)" SD Card is not    ");
+    BSP_LCD_DisplayStringAtLine(6, (uint8_t*)" FAT formatted.    ");  
+    BSP_LCD_DisplayStringAtLine(7, (uint8_t*)" Please Format the ");
+    BSP_LCD_DisplayStringAtLine(8, (uint8_t*)" microSD card.     ");
+    while (1)
+    {
+    }    
+  }
+  if(message == SD_CARD_FILE_NOT_SUPPORTED)
+  {
+    /* Display message */
+    BSP_LCD_DisplayStringAtLine(5, (uint8_t*)"                   ");
+    BSP_LCD_DisplayStringAtLine(6, (uint8_t*)" File type is not  ");
+    BSP_LCD_DisplayStringAtLine(7, (uint8_t*)" supported.        ");
+    BSP_LCD_DisplayStringAtLine(8, (uint8_t*)"                   ");
+    while(1)
+    {
+    }    
+  }
+  if(message == SD_CARD_OPEN_FAIL)
+  {
+    /* Display message */
+    BSP_LCD_DisplayStringAtLine(5, (uint8_t*)"                   ");
+    BSP_LCD_DisplayStringAtLine(6, (uint8_t*)" Open directory    ");
+    BSP_LCD_DisplayStringAtLine(7, (uint8_t*)" fails.            ");
+    BSP_LCD_DisplayStringAtLine(8, (uint8_t*)"                   ");
+    while(1)
+    {
+    }     
+  }
+  if(message == FATFS_NOT_MOUNTED)
+  {
+    /* Display message */
+    BSP_LCD_DisplayStringAtLine(5, (uint8_t*)"                   ");
+    BSP_LCD_DisplayStringAtLine(6, (uint8_t*)" Cannot mount      ");
+    BSP_LCD_DisplayStringAtLine(7, (uint8_t*)" FatFs on Drive.   "); 
+    BSP_LCD_DisplayStringAtLine(8, (uint8_t*)"                   ");
+    while (1)
+    {
+    }    
+  }
+  if(message == BSP_SD_INIT_FAILED)
+  {
+    /* Display message */
+    BSP_LCD_DisplayStringAtLine(5, (uint8_t*)"                   ");
+    BSP_LCD_DisplayStringAtLine(6, (uint8_t*)" SD Init           ");
+    BSP_LCD_DisplayStringAtLine(7, (uint8_t*)" fails.            ");
+    BSP_LCD_DisplayStringAtLine(8, (uint8_t*)"                   ");
+    while(1)
+    {
+    }     
+  }
+}
+
+
+

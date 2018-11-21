@@ -36,9 +36,16 @@ SRCDIR = ../../asp
 #
 INCLUDE_PATHS += -I./stm32_src
 C_OBJ += stm32_src/system_stm32f7xx.o stm32_src/stm32f7xx_it.o
-include $(STM32_LIB_DIR)/Drivers/BSP/Makefile.bsp
-include $(STM32_LIB_DIR)/Drivers/STM32F7xx_HAL_Driver/Makefile.hal
 include $(STM32_LIB_DIR)/Drivers/CMSIS/Makefile.cms
+include $(STM32_LIB_DIR)/Drivers/STM32F7xx_HAL_Driver/Makefile.hal
+include $(STM32_LIB_DIR)/Drivers/BSP/Makefile.bsp
+
+C_OBJ += stm32_src/fatfs_storage.o stm32_src/sd_diskio.o
+include $(STM32_LIB_DIR)/Drivers/BSP/Makefile.tft
+include $(STM32_LIB_DIR)/Middlewares/Third_Party/Makefile.3rd
+LIBS += -lc -lm
+LDFLAGS += -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -Wl,--end-group -specs=nano.specs 
+
 include ../Makefile.stm
 
 #
