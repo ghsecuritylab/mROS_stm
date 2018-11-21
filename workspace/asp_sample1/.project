@@ -51,7 +51,12 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>asp/cfg-mingw-static-1_9_6</name>
+			<name>asp/cfg-linux-static-1_9_6</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/asp/cfg-linux-static-1_9_6</locationURI>
+		</link>
+		<link>
+			<name>asp/cfg-macosx-static-1_9_5</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
@@ -141,9 +146,9 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>asp/cfg-mingw-static-1_9_6/cfg.exe</name>
+			<name>asp/cfg-macosx-static-1_9_5/cfg</name>
 			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/asp/cfg-mingw-static-1_9_6/cfg.exe</locationURI>
+			<locationURI>PARENT-2-PROJECT_LOC/asp/cfg-macosx-static-1_9_5/cfg</locationURI>
 		</link>
 		<link>
 			<name>asp/doc/asp_spec.txt</name>

@@ -71,11 +71,12 @@ endif
 #
 #  オブジェクトファイル名の拡張子の設定
 #
-ifneq ($(USE_TRUESTUDIO),true)
-OBJEXT = 
-else
+#ifneq ($(USE_TRUESTUDIO),true)
+#OBJEXT = 
+#else
+#OBJEXT = elf
+#endif
 OBJEXT = elf
-endif
 
 #
 #  実行環境の定義（ターゲット依存に上書きされる場合がある）
@@ -89,13 +90,13 @@ ifneq (,$(findstring /cygdrive/,$(PATH)))
     UNAME := Cygwin
 else
 ifeq ($(OS),Windows_NT)
-    UNAME := Windows
+  UNAME := Windows
 else
 ifeq ($(shell uname),Linux)
-    UNAME := Linux
-ifeq ($(UNAME),Darwin)
-    UNAME := Darwin
+  UNAME := Linux
 endif
+ifeq ($(shell uname),Darwin)
+  UNAME := Darwin
 endif
 endif
 endif
@@ -123,7 +124,11 @@ PERL = /usr/bin/perl
 ifeq ($(UNAME), Linux)
   CFG = $(SRCDIR)/cfg-linux-static-1_9_6
 else
-  CFG = $(SRCDIR)/cfg-mingw-static-1_9_6/cfg
+  ifeq ($(UNAME), Darwin)
+    CFG = $(SRCDIR)/cfg-macosx-static-1_9_5/cfg
+  else
+    CFG = $(SRCDIR)/cfg-mingw-static-1_9_6/cfg
+  endif
 endif
 
 #
@@ -241,8 +246,8 @@ endif
 #
 #  ターゲットファイル（複数を同時に選択してはならない）
 #
-all: $(OBJFILE)
-#all: $(OBJNAME).bin
+#all: $(OBJFILE)
+all: $(OBJNAME).bin
 #all: $(OBJNAME).srec
 
 ##### 以下は編集しないこと #####
@@ -371,6 +376,17 @@ $(OBJFILE): $(APPL_CFG) kernel_cfg.timestamp $(ALL_OBJS) $(LIBS_DEP)
 #
 $(OBJNAME).bin: $(OBJFILE)
 	$(OBJCOPY) -O binary -S $(OBJFILE) $(OBJNAME).bin
+ifeq ($(UNAME), Linux)
+	if [ -f /media/$(shell whoami)/NODE_F767ZI/DETAILS.TXT ]; then \
+	cp $(OBJNAME).bin /media/$(shell whoami)/NODE_F767ZI ; \
+  fi
+else
+ifeq ($(UNAME), Darwin)
+	if [ -f /Volumes/NODE_F767ZI/DETAILS.TXT ]; then \
+	cp $(OBJNAME).bin /Volumes/NODE_F767ZI ; \
+  fi
+endif
+endif
 
 #
 #  Sレコードファイルの生成
