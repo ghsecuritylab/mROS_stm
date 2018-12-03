@@ -37,10 +37,10 @@ Please let us know if you could develop build anothoer host OS.
 - For TrueSTUDIO
   - Specify and open `workspace` as workspace
   - Import `workspace/*` such as `asp_sample1/`
-  - Describe `#USE_TRUESTUDIO = true` on Makefile
-  - You can bulid and debug these projects
-- For CUI
+  - Describe `USE_TRUESTUDIO = true` on Makefile
+  - You can bulid and debug the projects
+- For CUI (terminal)
   - cd to project dir such as `workspace/asp_sample1/`
-  - Comment-out `#USE_TRUESTUDIO = true` or describe `#USE_TRUESTUDIO = false` on Makefile
+  - Describe `USE_TRUESTUDIO = false` or comment-out such as `#USE_TRUESTUDIO = true` on Makefile
   - `$ make` or `$ make depend && make`
 
