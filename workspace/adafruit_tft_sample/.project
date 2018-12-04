@@ -2021,6 +2021,11 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/BSP/Makefile.bsp</locationURI>
 		</link>
 		<link>
+			<name>stm32cubef7/Drivers/BSP/Makefile.tft</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/BSP/Makefile.tft</locationURI>
+		</link>
+		<link>
 			<name>stm32cubef7/Drivers/BSP/STM32F7xx_Nucleo_144</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
@@ -2139,6 +2144,11 @@
 			<name>stm32cubef7/Middlewares/Third_Party/LwIP</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>stm32cubef7/Middlewares/Third_Party/Makefile.3rd</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Middlewares/Third_Party/Makefile.3rd</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Middlewares/Third_Party/mbedTLS</name>
@@ -3296,6 +3306,11 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.h</locationURI>
 		</link>
 		<link>
+			<name>stm32cubef7/Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.su</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.su</locationURI>
+		</link>
+		<link>
 			<name>stm32cubef7/Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.c</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.c</locationURI>
@@ -3304,6 +3319,11 @@
 			<name>stm32cubef7/Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.h</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.h</locationURI>
+		</link>
+		<link>
+			<name>stm32cubef7/Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.su</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.su</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Drivers/BSP/Components/Common</name>
@@ -5531,6 +5551,11 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/BSP/Components/st7735/st7735.h</locationURI>
 		</link>
 		<link>
+			<name>stm32cubef7/Drivers/BSP/Components/st7735/st7735.su</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/BSP/Components/st7735/st7735.su</locationURI>
+		</link>
+		<link>
 			<name>stm32cubef7/Drivers/BSP/Components/st7789h2/Release_Notes.html</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Drivers/BSP/Components/st7789h2/Release_Notes.html</locationURI>
@@ -6691,6 +6716,11 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Middlewares/Third_Party/FatFs/src/diskio.h</locationURI>
 		</link>
 		<link>
+			<name>stm32cubef7/Middlewares/Third_Party/FatFs/src/diskio.su</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Middlewares/Third_Party/FatFs/src/diskio.su</locationURI>
+		</link>
+		<link>
 			<name>stm32cubef7/Middlewares/Third_Party/FatFs/src/drivers</name>
 			<type>2</type>
 			<locationURI>virtual:/virtual</locationURI>
@@ -6706,6 +6736,11 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Middlewares/Third_Party/FatFs/src/ff.h</locationURI>
 		</link>
 		<link>
+			<name>stm32cubef7/Middlewares/Third_Party/FatFs/src/ff.su</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Middlewares/Third_Party/FatFs/src/ff.su</locationURI>
+		</link>
+		<link>
 			<name>stm32cubef7/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Middlewares/Third_Party/FatFs/src/ff_gen_drv.c</locationURI>
@@ -6714,6 +6749,11 @@
 			<name>stm32cubef7/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Middlewares/Third_Party/FatFs/src/ff_gen_drv.h</locationURI>
+		</link>
+		<link>
+			<name>stm32cubef7/Middlewares/Third_Party/FatFs/src/ff_gen_drv.su</name>
+			<type>1</type>
+			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Middlewares/Third_Party/FatFs/src/ff_gen_drv.su</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Middlewares/Third_Party/FatFs/src/ffconf_template.h</name>
@@ -15066,11 +15106,6 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/STM32767ZI_Nucleo.elf.launch</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/STM32767ZI_Nucleo.elf.launch</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/STM32767ZI_Nucleo_converter.log</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/STM32767ZI_Nucleo_converter.log</locationURI>
@@ -22069,11 +22104,6 @@
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/STM32767ZI_Nucleo.binary</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/STM32767ZI_Nucleo.binary</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/STM32767ZI_Nucleo.elf</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/STM32767ZI_Nucleo.elf</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/STM32767ZI_Nucleo.list</name>
@@ -33411,11 +33441,6 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/STM32F767ZITx_FLASH.ld</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo.elf.launch</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo.elf.launch</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo_converter.log</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/STM32F767ZI_Nucleo_converter.log</locationURI>
@@ -33479,11 +33504,6 @@
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/USB_Host/MSC_Standalone/SW4STM32/STM32F767ZI_Nucleo_USBH-FS/STM32F767ZITx_FLASH.ld</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/USB_Host/MSC_Standalone/SW4STM32/STM32F767ZI_Nucleo_USBH-FS/STM32F767ZITx_FLASH.ld</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Application/SW4STM32</name>
-			<type>2</type>
-			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Application/User</name>
@@ -35601,11 +35621,6 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/STM32F767ZI_Nucleo.binary</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/STM32F767ZI_Nucleo.elf</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/STM32F767ZI_Nucleo.elf</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/STM32F767ZI_Nucleo.list</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/STM32F767ZI_Nucleo.list</locationURI>
@@ -35616,34 +35631,14 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/STM32F767ZI_Nucleo.map</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Application/SW4STM32/startup_stm32f767xx.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Application/SW4STM32/startup_stm32f767xx.o</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Application/User/fatfs_storage.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Application/User/fatfs_storage.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Application/User/fatfs_storage.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Application/User/fatfs_storage.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Application/User/main.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Application/User/main.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Application/User/main.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Application/User/main.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Application/User/stm32f7xx_it.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Application/User/stm32f7xx_it.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Application/User/stm32f7xx_it.su</name>
@@ -35666,19 +35661,9 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/CMSIS/system_stm32f7xx.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/CMSIS/system_stm32f7xx.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/CMSIS/system_stm32f7xx.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/CMSIS/system_stm32f7xx.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal.su</name>
@@ -35686,19 +35671,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_adc.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_adc.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_adc.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_adc.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_adc_ex.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_adc_ex.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_adc_ex.su</name>
@@ -35706,19 +35681,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_adc_ex.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_cortex.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_cortex.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_cortex.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_cortex.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma.su</name>
@@ -35726,19 +35691,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma_ex.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma_ex.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma_ex.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma_ex.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash.su</name>
@@ -35746,19 +35701,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash_ex.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash_ex.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash_ex.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash_ex.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_gpio.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_gpio.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_gpio.su</name>
@@ -35766,19 +35711,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_gpio.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr_ex.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr_ex.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr_ex.su</name>
@@ -35786,29 +35721,14 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr_ex.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc_ex.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc_ex.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc_ex.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc_ex.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_spi.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_spi.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_spi.su</name>
@@ -35881,19 +35801,9 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/BSP/Adafruit_Shield/stm32_adafruit_lcd.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.su</name>
@@ -35901,19 +35811,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/BSP/Adafruit_Shield/stm32_adafruit_sd.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/BSP/Components/st7735.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/BSP/Components/st7735.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/BSP/Components/st7735.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/BSP/Components/st7735.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/BSP/STM32F7xx_Nucleo_144/stm32f7xx_nucleo_144.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/BSP/STM32F7xx_Nucleo_144/stm32f7xx_nucleo_144.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/BSP/STM32F7xx_Nucleo_144/stm32f7xx_nucleo_144.su</name>
@@ -35921,19 +35821,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Drivers/BSP/STM32F7xx_Nucleo_144/stm32f7xx_nucleo_144.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Middlewares/FatFs/Core/diskio.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Middlewares/FatFs/Core/diskio.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Middlewares/FatFs/Core/diskio.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Middlewares/FatFs/Core/diskio.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Middlewares/FatFs/Core/ff.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Middlewares/FatFs/Core/ff.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Middlewares/FatFs/Core/ff.su</name>
@@ -35941,19 +35831,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Middlewares/FatFs/Core/ff.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Middlewares/FatFs/Core/ff_gen_drv.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Middlewares/FatFs/Core/ff_gen_drv.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Middlewares/FatFs/Core/ff_gen_drv.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Middlewares/FatFs/Core/ff_gen_drv.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Middlewares/FatFs/Drivers/sd_diskio.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Middlewares/FatFs/Drivers/sd_diskio.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Middlewares/FatFs/Drivers/sd_diskio.su</name>
@@ -35961,19 +35841,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Middlewares/FatFs/Drivers/sd_diskio.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Middlewares/FatFs/Option/syscall.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Middlewares/FatFs/Option/syscall.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Middlewares/FatFs/Option/syscall.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Middlewares/FatFs/Option/syscall.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Middlewares/FatFs/Option/unicode.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Middlewares/FatFs/Option/unicode.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Middlewares/FatFs/Option/unicode.su</name>
@@ -35981,24 +35851,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Demonstrations/SW4STM32/STM32767ZI_Nucleo/Debug/Middlewares/FatFs/Option/unicode.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/SW4STM32/startup_stm32f767xx.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/SW4STM32/startup_stm32f767xx.o</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/SW4STM32/syscalls.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/SW4STM32/syscalls.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/SW4STM32/syscalls.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/SW4STM32/syscalls.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/User/app_ethernet.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/User/app_ethernet.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/User/app_ethernet.su</name>
@@ -36006,19 +35861,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/User/app_ethernet.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/User/ethernetif.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/User/ethernetif.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/User/ethernetif.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/User/ethernetif.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/User/httpserver-netconn.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/User/httpserver-netconn.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/User/httpserver-netconn.su</name>
@@ -36026,29 +35871,14 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/User/httpserver-netconn.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/User/main.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/User/main.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/User/main.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/User/main.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/User/stm32f7xx_hal_timebase_tim.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/User/stm32f7xx_hal_timebase_tim.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/User/stm32f7xx_hal_timebase_tim.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/User/stm32f7xx_hal_timebase_tim.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/User/stm32f7xx_it.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/User/stm32f7xx_it.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Application/User/stm32f7xx_it.su</name>
@@ -36061,19 +35891,9 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/CMSIS/system_stm32f7xx.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/CMSIS/system_stm32f7xx.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/CMSIS/system_stm32f7xx.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/CMSIS/system_stm32f7xx.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal.su</name>
@@ -36081,19 +35901,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_cortex.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_cortex.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_cortex.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_cortex.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma.su</name>
@@ -36101,19 +35911,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma2d.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma2d.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma2d.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma2d.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dsi.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dsi.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dsi.su</name>
@@ -36121,19 +35921,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dsi.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_eth.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_eth.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_eth.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_eth.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash.su</name>
@@ -36141,19 +35931,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash_ex.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash_ex.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash_ex.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash_ex.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_gpio.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_gpio.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_gpio.su</name>
@@ -36161,19 +35941,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_gpio.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c_ex.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c_ex.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c_ex.su</name>
@@ -36181,19 +35951,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c_ex.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_ltdc.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_ltdc.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_ltdc.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_ltdc.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_ltdc_ex.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_ltdc_ex.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_ltdc_ex.su</name>
@@ -36201,19 +35961,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_ltdc_ex.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr_ex.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr_ex.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr_ex.su</name>
@@ -36221,19 +35971,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr_ex.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc_ex.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc_ex.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc_ex.su</name>
@@ -36241,19 +35981,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc_ex.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_sdram.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_sdram.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_sdram.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_sdram.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_tim.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_tim.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_tim.su</name>
@@ -36261,19 +35991,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_tim.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_tim_ex.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_tim_ex.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_tim_ex.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_tim_ex.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart.su</name>
@@ -36281,29 +36001,14 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_ll_fmc.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_ll_fmc.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_ll_fmc.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/STM32F7xx_HAL_Driver/stm32f7xx_ll_fmc.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/croutine.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/croutine.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/croutine.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/croutine.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/list.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/list.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/list.su</name>
@@ -36316,29 +36021,14 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/queue.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/queue.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/queue.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/queue.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/tasks.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/tasks.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/tasks.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/tasks.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/timers.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/timers.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/timers.su</name>
@@ -36366,19 +36056,9 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/BSP/STM32F769ZI_Nucleo/stm32f7xx_nucleo_144.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/BSP/STM32F769ZI_Nucleo/stm32f7xx_nucleo_144.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/BSP/STM32F769ZI_Nucleo/stm32f7xx_nucleo_144.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Drivers/BSP/STM32F769ZI_Nucleo/stm32f7xx_nucleo_144.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/portable/cmsis_os.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/portable/cmsis_os.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/portable/cmsis_os.su</name>
@@ -36386,19 +36066,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/portable/cmsis_os.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/portable/heap_4.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/portable/heap_4.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/portable/heap_4.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/portable/heap_4.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/portable/port.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/portable/port.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/portable/port.su</name>
@@ -36406,19 +36076,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/FreeRTOS/portable/port.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/api_lib.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/api_lib.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/api_lib.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/api_lib.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/api_msg.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/api_msg.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/api_msg.su</name>
@@ -36426,19 +36086,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/api_msg.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/err.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/err.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/err.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/err.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/netbuf.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/netbuf.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/netbuf.su</name>
@@ -36446,19 +36096,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/netbuf.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/netdb.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/netdb.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/netdb.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/netdb.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/netifapi.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/netifapi.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/netifapi.su</name>
@@ -36466,19 +36106,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/netifapi.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/sockets.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/sockets.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/sockets.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/sockets.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/tcpip.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/tcpip.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Api/tcpip.su</name>
@@ -36491,19 +36121,9 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/def.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/def.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/def.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/def.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/dns.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/dns.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/dns.su</name>
@@ -36511,19 +36131,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/dns.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/inet_chksum.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/inet_chksum.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/inet_chksum.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/inet_chksum.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/init.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/init.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/init.su</name>
@@ -36531,19 +36141,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/init.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/ip.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/ip.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/ip.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/ip.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/mem.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/mem.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/mem.su</name>
@@ -36551,19 +36151,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/mem.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/memp.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/memp.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/memp.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/memp.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/netif.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/netif.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/netif.su</name>
@@ -36571,19 +36161,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/netif.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/pbuf.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/pbuf.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/pbuf.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/pbuf.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/raw.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/raw.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/raw.su</name>
@@ -36591,19 +36171,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/raw.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/stats.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/stats.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/stats.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/stats.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/sys.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/sys.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/sys.su</name>
@@ -36611,19 +36181,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/sys.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/tcp.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/tcp.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/tcp.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/tcp.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/tcp_in.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/tcp_in.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/tcp_in.su</name>
@@ -36631,19 +36191,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/tcp_in.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/tcp_out.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/tcp_out.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/tcp_out.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/tcp_out.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/timeouts.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/timeouts.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/timeouts.su</name>
@@ -36651,29 +36201,14 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/timeouts.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/udp.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/udp.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/udp.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/udp.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Netif/ethernet.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Netif/ethernet.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Netif/ethernet.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Netif/ethernet.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Netif/sys_arch.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Netif/sys_arch.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Netif/sys_arch.su</name>
@@ -36686,19 +36221,9 @@
 			<locationURI>virtual:/virtual</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/autoip.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/autoip.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/autoip.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/autoip.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/dhcp.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/dhcp.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/dhcp.su</name>
@@ -36706,19 +36231,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/dhcp.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/etharp.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/etharp.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/etharp.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/etharp.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/icmp.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/icmp.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/icmp.su</name>
@@ -36726,19 +36241,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/icmp.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/igmp.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/igmp.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/igmp.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/igmp.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/ip4.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/ip4.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/ip4.su</name>
@@ -36746,19 +36251,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/ip4.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/ip4_addr.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/ip4_addr.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/ip4_addr.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/ip4_addr.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/ip4_frag.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/ip4_frag.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/ip4_frag.su</name>
@@ -36766,19 +36261,9 @@
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/Core/IPv4/ip4_frag.su</locationURI>
 		</link>
 		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/apps/httpd/fs.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/apps/httpd/fs.o</locationURI>
-		</link>
-		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/apps/httpd/fs.su</name>
 			<type>1</type>
 			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/apps/httpd/fs.su</locationURI>
-		</link>
-		<link>
-			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/apps/httpd/httpd.o</name>
-			<type>1</type>
-			<locationURI>PARENT-2-PROJECT_LOC/stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/apps/httpd/httpd.o</locationURI>
 		</link>
 		<link>
 			<name>stm32cubef7/Projects/STM32F767ZI-Nucleo/Applications/LwIP/LwIP_HTTP_Server_Netconn_RTOS/SW4STM32/STM32F767ZI_Nucleo/Debug/Middlewares/LwIP/apps/httpd/httpd.su</name>
