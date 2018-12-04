@@ -43,8 +43,11 @@ include $(STM32_LIB_DIR)/Drivers/BSP/Makefile.bsp
 C_OBJ += stm32_src/fatfs_storage.o stm32_src/sd_diskio.o
 include $(STM32_LIB_DIR)/Drivers/BSP/Makefile.tft
 include $(STM32_LIB_DIR)/Middlewares/Third_Party/Makefile.3rd
-LIBS += -lc -lm
-LDFLAGS += -Wl,--gc-sections -Wl,--defsym=malloc_getpagesize_P=0x80 -Wl,--start-group -Wl,--end-group -specs=nano.specs 
+
+# for linking malloc,free and _sbrk
+LIBS += -lc -lnosys
+# for defining `malloc_getpagesize_P'
+LDFLAGS += -Wl,--defsym=malloc_getpagesize_P=0x80
 
 include ../Makefile.stm
 
